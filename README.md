@@ -6,7 +6,7 @@ Simple_LA can be used for matrix/vector operations and solving linear systems.
 Usage
 -----
 Matrix operation examples (vector operations follow same principles):
-'''
+```
 //m1 - m2
 m3 = m1.Subtract(m2);
 
@@ -21,10 +21,10 @@ m1.EqualsInt(1, 0, 0);
 
 //Print Matrix
 m1.PrintElements();
-'''
+```
 
 Linear system examples:
-'''
+```
 //To initialize a new linear system provide an array of LinearEquations
 Plane p1 = new Plane(.786,.786,.588,-.714);
 			Plane p2 = new Plane(-.131,-.131,.244,.319);
@@ -35,4 +35,4 @@ LinearSystem system = new LinearSystem(new Plane[] { p1, p2, p3, p4 });
 
 //To solve for solutions call GaussianElimination() (will print solution if any exist)
 system.GaussianElimination();
-'''
+```
