@@ -3,5 +3,6 @@ A basic C# Linear Algebra library created for the Udacity Linear Algebra Refresh
 
 Simple_LA can be used for matrix/vector operations and solving linear systems.
 
-# Usage
+Usage
+-----
 
